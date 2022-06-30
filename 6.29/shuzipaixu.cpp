@@ -15,7 +15,6 @@ bool fun(string a,string b)
 	if(sum(a)==sum(b)) return a<b;
 	else return sum(a)<sum(b);
 }
-
 int main()
 {	
 	int n;
