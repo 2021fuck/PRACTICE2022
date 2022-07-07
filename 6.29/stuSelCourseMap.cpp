@@ -29,5 +29,6 @@ int main()
         for (int i = 0; i < courses.size(); ++i) printf(" %d", courses[i]);
         printf("\n");
     }
+    system("pause");
     return 0;
 }
