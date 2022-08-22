@@ -2,8 +2,7 @@
 using namespace std;
 long long num[92] = {0};
 long long fun(int n) {
-  if (n == 1) return 1;
-  if (n == 2) return 2;
+  if(n==1||n==2) return n;
   if (num[n] > 0)
     return num[n];
   else

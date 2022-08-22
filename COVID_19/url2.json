@@ -1,0 +1,40 @@
+{
+    "results": [
+        {
+            "currentConfirmedCount": 4380829,
+            "currentConfirmedIncr": 31645,
+            "confirmedCount": 4702869,
+            "confirmedIncr": 31901,
+            "suspectedCount": 19845,
+            "suspectedIncr": 41,
+            "curedCount": 299611,
+            "curedIncr": 194,
+            "deadCount": 22429,
+            "deadIncr": 62,
+            "seriousCount": 3207,
+            "seriousIncr": -1,
+            "globalStatistics": {
+                "currentConfirmedCount": 198260382,
+                "confirmedCount": 557035533,
+                "curedCount": 352406811,
+                "deadCount": 6368340,
+                "currentConfirmedIncr": 385738,
+                "confirmedIncr": 1136561,
+                "curedIncr": 748970,
+                "deadIncr": 1853,
+                "yesterdayConfirmedCountIncr": 1136561
+            },
+            "generalRemark": "",
+            "remark1": "易感人群：人群普遍易感。老年人及有基础疾病者感染后病情较重，儿童及婴幼儿也有发病",
+            "remark2": "潜伏期：一般为 3～7 天，最长不超过 14 天，潜伏期内可能存在传染性，其中无症状病例传染性非常罕见",
+            "remark3": "宿主：野生动物，可能为中华菊头蝠",
+            "remark4": "",
+            "remark5": "",
+            "note1": "病毒：SARS-CoV-2，其导致疾病命名 COVID-19",
+            "note2": "传染源：新冠肺炎的患者。无症状感染者也可能成为传染源。",
+            "note3": "传播途径：经呼吸道飞沫、接触传播是主要的传播途径。气溶胶传播和消化道等传播途径尚待明确。",
+            "updateTime": 1657685435035
+        }
+    ],
+    "success": true
+}

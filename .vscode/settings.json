@@ -4,6 +4,7 @@
         "cstring": "cpp",
         "ostream": "cpp",
         "condition_variable": "cpp",
-        "*.tcc": "cpp"
+        "*.tcc": "cpp",
+        "numeric": "cpp"
     }
 }

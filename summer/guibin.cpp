@@ -12,15 +12,15 @@ void merge(int num[], int L1, int R1, int L2, int R2) {
   }
   while (left <= R1) temp[index++] = num[left++];
   while (right <= R2) temp[index++] = num[right++];
-  for (int i = 0; i < index; i++) num[left + i] = temp[i];
+  for (int i = 0; i < index; i++) num[L1 + i] = temp[i];
 }
 void mergeSort(int num[], int left, int right) {
   int mid;
-  while (left < right) {
+  if (left < right) {
     mid = (right + left) / 2;
+    mergeSort(num, left, mid);
     mergeSort(num, mid + 1, right);
-    mergeSort(num, left, mid - 1);
-    merge(num, left, mid, mid + 1, right)
+    merge(num, left, mid, mid + 1, right);
   }
 }
 int main() {
